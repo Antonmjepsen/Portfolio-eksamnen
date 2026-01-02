@@ -1,0 +1,51 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  background-color: #eeecea;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.nav_menu {
+  background-color: #eeecea;
+  padding: 10px;
+  font-family: "cardo", serif;
+  text-align: center;
+  border-bottom: solid 1px black;
+}
+
+.nav_link {
+  font-weight: light;
+  color: black;
+  text-decoration: none;
+  font-family: "cardo", serif;
+  margin: 30px;
+}
+
+.h1_overskrift {
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  margin: 20px;
+  margin-top: 40px;
+  color: #545f7e;
+}
+
+.h2_underrubrik {
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #545f7e;
+}
