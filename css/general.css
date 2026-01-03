@@ -13,6 +13,12 @@ img {
 
 body {
   background-color: #eeecea;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
 }
 
 strong {
@@ -48,4 +54,21 @@ strong {
   text-align: center;
   margin-bottom: 40px;
   color: #545f7e;
+}
+
+.footer_kontakt {
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  font-family: "cardo", serif;
+  font-weight: light;
+  margin-top: 40px;
+  border-top: solid 1px black;
+  margin-bottom: 20px;
+}
+
+.kontakt_bold {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
