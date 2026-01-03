@@ -67,21 +67,22 @@
 }
 
 /* Desktop */
-@media (min-width: 900px) {
+@media (min-width: 550px) {
   .grid_layout_index {
     max-width: 1200px;
-    margin: 0 auto 40px;
+    margin: 100px auto 40px;
     padding: 0 40px;
   }
 
-  .grid_layout_index {
-    min-height: 300px;
-    margin-right: 250px;
-    margin-left: 250px;
-    margin-top: 100px;
+  .grid_layout_index p {
+    font-size: 1.2rem;
   }
 
   .om_mig_grid {
+    min-height: 150px;
+  }
+
+  .portfolio_grid {
     min-height: 150px;
   }
 }
