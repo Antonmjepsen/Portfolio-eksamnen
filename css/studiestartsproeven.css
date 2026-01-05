@@ -91,9 +91,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
   }
   .galleri img {
-    max-width: 100%;
+    max-width: 70%;
     margin: 0;
   }
 
