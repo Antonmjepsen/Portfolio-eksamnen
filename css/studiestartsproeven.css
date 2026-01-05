@@ -69,6 +69,12 @@
     align-self: start;
   }
 
+  .paragraph_studiestart p {
+    max-width: 400px;
+    text-align: left;
+    margin-left: 60px;
+  }
+
   .galleri h2 {
     grid-column: 2;
     grid-row: 1;
