@@ -56,8 +56,13 @@ h3 {
   text-decoration: none;
   font-family: "cardo", serif;
   margin: 30px;
+  transition: color 0.1s ease;
 }
 
+.nav_link:hover {
+  color: #545f7e;
+  text-decoration: underline;
+}
 .h1_overskrift {
   font-family: "Julius Sans One", sans-serif;
   text-align: center;
@@ -88,4 +93,21 @@ h3 {
   font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+.link_style:hover {
+  background-color: #3d4a66;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.links {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.link_style {
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
 }
