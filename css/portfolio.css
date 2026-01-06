@@ -1,3 +1,4 @@
+/* Mobile-first */
 .grid_layout_portfolio {
   display: grid;
   grid-template-columns: 1fr;

@@ -1,4 +1,4 @@
-/* Mobile-first Grid Layout */
+/* Mobile-first */
 .grid_layout_index {
   display: grid;
   grid-template-columns: 1fr 1fr;
