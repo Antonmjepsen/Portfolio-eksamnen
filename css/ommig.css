@@ -1,5 +1,5 @@
 .erhvervserfaring {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-top: 40px;
 
   text-align: center;
@@ -13,14 +13,16 @@
   font-weight: light;
   color: #000000;
   font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 .portratbillede {
   margin-top: 10px;
-  border: solid 5px #000000;
+
   border-radius: 15px;
   max-width: 300px;
-  margin: 20px auto 0;
+  margin: 70px auto 0;
+  display: block;
 }
 
 .h2_underrubrik_ommig {
@@ -32,7 +34,7 @@
 }
 
 .reflektion {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
   text-align: center;
@@ -48,7 +50,7 @@
   margin-top: 30px;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 800px) {
   .grid_layout_ommig {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -59,12 +61,14 @@
   }
 
   .portratbillede {
-    max-width: 100%;
+    max-width: 500px;
     grid-column: 1;
     grid-row: 1 / 4;
-    height: auto;
-    width: 100%;
-    margin-top: 70px;
+    margin: 70px auto 0;
+  }
+
+  .portratbillede img {
+    border-radius: 5px;
   }
 
   .erhvervserfaring {
