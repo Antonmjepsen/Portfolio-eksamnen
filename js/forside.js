@@ -1,4 +1,4 @@
-// Typewriter effect for any element
+/* Typewriter effekt */
 function typeWriter(element, text, speed = 100) {
   let i = 0;
   element.textContent = "";
@@ -11,7 +11,6 @@ function typeWriter(element, text, speed = 100) {
       i++;
       setTimeout(type, speed);
     } else {
-      // Remove cursor after typing is done
       setTimeout(() => {
         element.style.borderRight = "none";
       });
@@ -21,9 +20,7 @@ function typeWriter(element, text, speed = 100) {
   type();
 }
 
-// Wait for page to load
 window.addEventListener("load", () => {
-  // For specific paragraph - add a class to target it
   const typingParagraph = document.querySelector(".typewriter-text");
 
   if (typingParagraph) {
@@ -35,6 +32,7 @@ window.addEventListener("load", () => {
   }
 });
 
+/* reveal animation */
 window.addEventListener("load", () => {
   const reveals = document.querySelectorAll(".reveal");
 
