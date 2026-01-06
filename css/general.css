@@ -73,7 +73,7 @@ h3 {
 }
 
 .nav_link {
-  font-weight: light;
+  font-weight: lighter;
   color: black;
   text-decoration: none;
   font-family: "cardo", serif;
@@ -105,7 +105,7 @@ h3 {
   text-align: center;
   padding: 20px;
   font-family: "cardo", serif;
-  font-weight: light;
+  font-weight: lighter;
   margin-top: 40px;
   border-top: solid 1px black;
   margin-bottom: 20px;
