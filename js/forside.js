@@ -34,3 +34,11 @@ window.addEventListener("load", () => {
     }, delay);
   }
 });
+
+window.addEventListener("load", () => {
+  const reveals = document.querySelectorAll(".reveal");
+
+  reveals.forEach((el, index) => {
+    el.style.animationDelay = `${index * 0.1}s`;
+  });
+});
